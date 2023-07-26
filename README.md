@@ -18,3 +18,6 @@
 ####                               2- put password
 #### Go to SendVerificationCodeService class :
                     helper.setFrom("{ put gmail that will send message }",senderName);
+                    
+                    *note String verifyURL = siteURL + "http://localhost:8080/verify?code=" + user.getVerficationCode();
+                    you can change the port {8080} according to the port you will use
